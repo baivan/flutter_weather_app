@@ -20,4 +20,4 @@ String dateToHumanFormat(String date) {
   return DateFormat.yMMMEd().format(parseDate);
 }
 
-String apiweatherkey = "<Your api weather key ">";
+String apiweatherkey = "<Your api weather key >";
