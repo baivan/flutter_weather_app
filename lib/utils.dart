@@ -19,3 +19,5 @@ String dateToHumanFormat(String date) {
   DateTime parseDate = DateFormat("yyyy-MM-dd HH:mm").parse(date);
   return DateFormat.yMMMEd().format(parseDate);
 }
+
+String apiweatherkey = "<Your api weather key ">";
